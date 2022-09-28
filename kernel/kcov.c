@@ -24,7 +24,9 @@
 #include <linux/refcount.h>
 #include <linux/log2.h>
 #include <asm/setup.h>
-
+// #include <beko.h>
+// #include <alpgay.h>
+/* BEKO BABA ADAMDIR VE ALP GAY AYUKUN MU BABA */
 #define kcov_debug(fmt, ...) pr_debug("%s: " fmt, __func__, ##__VA_ARGS__)
 
 /* Number of 64-bit words written per one comparison: */
